@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="user-scalable = yes, width=320, initial-scale=1">
+    <script type="text/javascript" src="jquery.lazy.min.js"></script>
+    <title>kauai discount</title>
+  </head>
+  <body>
+    <div id="wrapper">
+    <!-- ================ -->
+    <div id="border-left"></div>
+    <!-- ====== wrapper ======== -->
+    <div id="main">
+      <!-- ======== -->
+      <div class="masthead">
+        <div class="logo">
+          <a href="#">
+            <img src="images/kauai_discount_logo.svg" alt="">
+            <h1>kauai discount <hr/> <span>discount activites & tours</span></h1>
+          </a>
+        </div>
+        <div class="phone">
+          <ul>
+              <!-- <img src="images/privacy-guard.png" alt=""> -->
+            <li>
+              <span>(Toll Free)</span>
+              <a href="#">1-866-482-9775</a>
+            </li>
+            <li>
+              <span>(Local)</span>
+              <a href="#">808-892-2082</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <button type="button" name="button" class="menu-btn" onclick="idToggle('menu-btn','active');idToggle('main-nav','active')" id="menu-btn">
+        <hr class="menu-btn-hr-1"/>
+        <hr class="menu-btn-hr-2"/>
+        <hr class="menu-btn-hr-3"/>
+      </button>
+      <nav class="main-nav" id="main-nav">
+      <section>
+        <ul>
+          <li class="home"><a href="#"><span>home</span></a></li>
+          <li>
+          <a class="parentAnchor" href="#">activites</a>
+          <button class="mobileDropDown" type="button" name="button"></button>
+            <nav class="childNav">
+              <a href="#">Dinner Cruises</a>
+              <a href="#">Dolphin Swims</a>
+              <a href="#">Entertainment</a>
+              <a href="#">Fishing</a>
+              <a href="#">Golf Courses</a>
+              <a href="#">Horseback Riding</a>
+              <a href="#">Kayaking</a>
+              <a href="#">Lei Greetings</a>
+              <a href="#">Luaus</a>
+              <a href="#">Oahu Parasailing</a>
+              <a href="#">Polynesian Cultural Ctr</a>
+              <a href="#">Scuba Diving</a>
+              <a href="#">Sea Life Park</a>
+              <a href="#">Shark Cage Adventures</a>
+              <a href="#">Snorkeling</a>
+              <a href="#">Surfing</a>
+              <a href="#">Ziplines</a>
+            </nav>
+          </li>
+          <li>
+            <a class="parentAnchor" href="#">tours</a>
+            <button class="mobileDropDown" type="button" name="button"></button>
+            <nav class="childNav">
+              <a href="">ATV Tours</a>
+              <a href="">Helicopter Tours</a>
+              <a href="">Inter-Island Tours</a>
+              <a href="">Kualoa Ranch</a>
+              <a href="">Nature Tours</a>
+              <a href="">Pearl Harbor</a>
+              <a href="">Shore Excursions</a>
+              <a href="">Sightseeing Tours</a>
+              <a href="">Turtle Tours</a>
+              <a href="">Volcano Tours</a>
+              <a href="">Whale Watching</a>
+            </nav>
+          </li>
+          <li>
+            <a class="parentAnchor" href="#">luaus</a>
+          </li>
+          <li>
+            <a class="parentAnchor" href="#">car rentals</a>
+          </li>
+          <li><a class="parentAnchor" href="#">about us</a></li>
+          <li><a class="parentAnchor" href="#">blog</a></li>
+          <li><a class="parentAnchor" href="#">contact</a></li>
+          <li><a class="parentAnchor" href="#">cart</a></li>
+        </ul>
+      </section>
+      </nav>
+      <!-- ======== -->
+      <div id="checkpoint-first" class="checkpoint-first">
+      <!-- ================ -->
+      <div id="banner">
+        <div id="framecont" class="frame-cont">
+          <button type="button" id="navBtnBack" onclick="sliderPlus(-1);endTimer();"><i class="material-icons">arrow_back_ios</i></button>
+          <button type="button" id="navBtnForward" onclick="sliderPlus(1);endTimer();"><i class="material-icons">arrow_forward_ios</i></button>
+          <div class="frame" id="frame">
+            <section class="slide" id="slide1">
+              <div class="test">
+                <img src="images/hulaman.png" alt="" class="img-1">
+                <article>
+                  <h2>discount kauai </br> luau reservations</h2>
+                  <h3>save up to <span>7%</span></h3>
+                  <a href="#">book now</a>
+                </article>
+              </div>
+            </section>
+            <section class="slide" id="slide2">
+              <div class="test">
+                <img src="images/familySnorkeling.png" alt="" class="img-1">
+                <article>
+                  <h2>discount kauai </br> snorkeling reservations</h2>
+                  <h3>save up to <span>7%</span></h3>
+                  <a href="#">book now</a>
+                </article>
+              </div>
+            </section>
+            <section class="slide" id="slide3">
+              <div class="test">
+                <img src="images/helicopter2.png" alt="" class="img-1">
+                <article>
+                  <h2>discount kauai helicopter</br> tour reservations</h2>
+                  <h3>save up to <span>20%</span></h3>
+                  <a href="#">book now</a>
+                </article>
+              </div>
+            </section>
+            <section class="slide" id="slide4">
+              <div class="test">
+                <img src="images/people.png" alt="" class="img-1">
+                <article>
+                  <h2>discount land tour reservations</h2>
+                  <h3>save up to <span>20%</span></h3>
+                  <a href="#">book now</a>
+                </article>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      <!-- ================ -->
+      <!-- ================ -->
+      <div class="product-nav">
+        <header>choose an activity or tour below</header>
+        <div class="products">
+          <div class="product" href="#" id="icon-1">
+            <a href="#">
+              <div class="p-img"></div>
+              <span>luaus</span>
+            </a>
+            <button class="tool-tip-btn" type="button" name="button">?</button>
+            <div class="tool-tip"><section><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></section></div>
+          </div>
+          <div class="product" href="#" id="icon-2">
+            <a href="#">
+              <div class="p-img"></div>
+              <span>dinner cruises</span>
+            </a>
+            <button class="tool-tip-btn" type="button" name="button">?</button>
+            <div class="tool-tip"><section><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></section></div>
+          </div>
+          <div class="product" href="#" id="icon-3">
+            <a href="#">
+              <div class="p-img"></div>
+              <span>snorkeling</span>
+            </a>
+            <button class="tool-tip-btn" type="button" name="button">?</button>
+          <div class="tool-tip"><section><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></section></div>
+          </div>
+          <div class="product" href="#" id="icon-4">
+            <a href="#">
+              <div class="p-img"></div>
+              <span>sailing</span>
+            </a>
+            <button class="tool-tip-btn" type="button" name="button">?</button>
+            <div class="tool-tip"><section><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></section></div>
+          </div>
+          <div class="product" href="#" id="icon-5">
+            <a href="#">
+              <div class="p-img"></div>
+              <span>helicopter</span>
+            </a>
+            <button class="tool-tip-btn" type="button" name="button">?</button>
+            <div class="tool-tip"><section><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></section></div>
+          </div>
+          <div class="product" href="#" id="icon-6">
+            <a href="#">
+            <div class="p-img"></div>
+            <span>sightseeing</span>
+            </a>
+            <button class="tool-tip-btn" type="button" name="button">?</button>
+            <div class="tool-tip"><section><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></section></div>
+          </div>
+          <div class="product" href="#" id="icon-7">
+            <a href="#">
+            <div class="p-img"></div>
+            <span>kayaking</span>
+            </a>
+          <button class="tool-tip-btn" type="button" name="button">?</button>
+          <div class="tool-tip"><section><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></section></div>
+          </div>
+          <div class="product" href="#" id="icon-8">
+            <a href="#">
+              <div class="p-img"></div>
+              <span>atv tours</span>
+            </a>
+            <button class="tool-tip-btn" type="button" name="button">?</button>
+            <div class="tool-tip"><section><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></section></div>
+          </div>
+          <div class="product" href="#" id="icon-9">
+            <a href="#">
+            <div class="p-img"></div>
+            <span>horse riding</span>
+            </a>
+            <button class="tool-tip-btn" type="button" name="button">?</button>
+            <div class="tool-tip"><section><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></section></div>
+          </div>
+          <div class="product" href="#" id="icon-10">
+            <a href="#">
+            <div class="p-img"></div>
+            <span>zipline tours</span>
+            </a>
+            <button class="tool-tip-btn" type="button" name="button">?</button>
+            <div class="tool-tip"><section><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></section></div>
+          </div>
+          <div class="product" href="#" id="icon-11">
+            <a href="#">
+            <div class="p-img"></div>
+            <span>tubing</span>
+            </a>
+            <button class="tool-tip-btn" type="button" name="button">?</button>
+            <div class="tool-tip"><section><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></section></div>
+          </div>
+          <div class="product" href="#" id="icon-12">
+            <a href="#">
+            <div class="p-img"></div>
+            <span>lei greetings</span>
+            </a>
+            <button class="tool-tip-btn" type="button" name="button">?</button>
+            <div class="tool-tip"><section><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></section></div>
+          </div>
+        </div>
+        <a id="more-tours" href="#">more tours and activites</a>
+      </div>
+      <!-- ================ -->
+      <div class="featured-content">
+        <h4>featured discounts</h4>
+        <ul id="product-list">
+          <!--- ==== --->
+          <li class="featured-product" id="p1">
+          <div class="section"> <!-- section -->
+            <button class="learn-more" onclick="idToggle('detail-1','active')">learn</br>more</button><div class="discount-badge">save<br><span>$27&nbsp&nbsp</span></div>
+            <div class="article"> <!-- article -->
+              <p>Kilohaha Plantation</p>
+              <h3>Luau Kalamaku</h3>
+              <dl><dd>from<dd><dt class="price">$99.59</dt></dl>
+              <a href="#">book now</a>
+            </div> <!-- article -->
+          </div> <!-- section -->
+          <a href="#">more luaus</a>
+          </li>
+          <!--- ==== --->
+          <li class="featured-product" id="p2">
+          <div class="section"> <!-- section -->
+            <button class="learn-more" onclick="idToggle('detail-2','active')">learn</br>more</button><div class="discount-badge">save<br><span>10%</span></div>
+            <div class="article"> <!-- article -->
+              <p>holo holo charters</p>
+              <h3>napali sunset cruise</h3>
+              <dl><dd>from<dd><dt class="price">$99.59</dt></dl>
+              <a href="#">book now</a>
+            </div> <!-- article -->
+
+          </div> <!-- section -->
+          <a href="#">more dinner cruises</a>
+          </li>
+          <!--- ==== --->
+          <li class="featured-product" id="p3">
+          <div class="section"> <!-- section -->
+            <button class="learn-more" onclick="idToggle('detail-3','active')">learn</br>more</button><div class="discount-badge">save<br><span>15%</span></div>
+            <div class="article"> <!-- article -->
+              <p>sunshine tours</p>
+              <h3>ultimate kauai adventure</h3>
+              <dl><dd>from<dd><dt class="price">$187.50</dt></dl>
+              <a href="#">book now</a>
+            </div> <!-- article -->
+          </div> <!-- section -->
+          <a href="#">more helicopter tours</a>
+          </li>
+          <!--- ==== --->
+        </ul>
+      </div>
+      <!-- ================ -->
+      </div>
+      <!-- ================ -->
+      <div class="detail-wrapper" id="detail-1">
+      <div class="detail"><header><h2>Luau Kalamaku</h2><button type="button" name="button" onclick="idToggle('detail-1','active')"><i class="material-icons">close</i></button></header>
+          <div class="section"> <!-- section -->
+            <div class="article"> <!-- article -->
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <ul>
+              <li class="dtl-price"><span>retail</span><s>$117.23</s></li>
+              <li class="dtl-discount"><span>discount</span>$99.59</li>
+              <li class="dtl-duration"><span>duration</span>3.5 hours</li>
+            </ul>
+            <a href="#">book now</a>
+          </div> <!-- article -->
+        </div> <!-- section -->
+    </div>
+    </div>
+    <div class="detail-wrapper" id="detail-2">
+    <div class="detail"><header><h2>napali sunset cruise</h2><button type="button" name="button" onclick="idToggle('detail-2','active')"><i class="material-icons">close</i></button></header>
+      <div class="section"> <!-- section -->
+        <div class="article"> <!-- article -->
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          <ul>
+            <li class="dtl-price"><span>retail</span><s>$149</s></li>
+            <li class="dtl-discount"><span>discount</span>$126.87</li>
+            <li class="dtl-duration"><span>duration</span>3.5 hours</li>
+          </ul>
+          <a href="#">book now</a>
+        </div> <!-- article -->
+      </div> <!-- section -->
+      </div>
+    </div>
+    <div class="detail-wrapper" id="detail-3">
+      <div class="detail"><header><h2>ultimate kauai adventure</h2><button type="button" name="button" onclick="idToggle('detail-3','active')"><i class="material-icons">close</i></button></header>
+        <div class="section"> <!-- section -->
+          <div class="article"> <!-- article -->
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <ul>
+              <li class="dtl-price"><span>retail</span><s>$204.00</s></li>
+              <li class="dtl-discount"><span>discount</span>$187.50</li>
+              <li class="dtl-duration"><span>duration</span>50 minutes</li>
+            </ul>
+            <a href="#">book now</a>
+          </div> <!-- article -->
+        </div> <!-- section -->
+      </div>
+    </div>
+    <!-- ====== -->
+    <div class="checkpoint">
+      <div class="article-section">
+        <header>What you need to know before</br> creating your discount Kawaii Vacation package?</header>
+      <div class="article-first">
+        <article>
+          <p>Kauai is the oldest and most northern of of the main Hawaiian Islands. At only 550 square miles, Kauai is regarded as the most beautiful Hawaiian island making it perfect for activities and tours. Its nickname is the Garden Island, although it was originally created by volcanoes. Kauai’s mountains and valleys showcase lovely waterfalls and canyons etched into the earth by the continual rainfall. In fact, Kauai has the proud title of being one of the wettest spots on earth!
+          There are an abundance of Kauai activities to do, from the average tourist to the eco-tourist, you can always plan the best of Kauai adventures to suit your vacation needs!</p>
+        </article>
+      </div>
+      <div class="article-second">
+        <article>
+          <p>The island of Kauai is said to be the most beautiful of all the Hawaiian islands, but don’t take our word for it! Book your <a href="#">hiking tour</a> on the majestic Na Pali Coast! Or choose from many different activities for visitors, including <a href="#">guided horseback rides</a>, <a href="#">ATV tours</a>, <a href="#">jungle expeditions</a> and <a href="#">nature walks</a>. Our tours offer gorgeous views of lush rainforests, deep valleys and the ocean. We also offer
+          <a href="#">zipline tours</a>, <a href="#">zipline tours</a>,<a href="#">deep sea fishing</a> and so much more! Check out our tours: You just might find the adventure of a lifetime!</p>
+        </article>
+      </div>
+    </div>
+    <!-- ===== -->
+
+    <div class="coverage-section">
+      <h2>we've got you covered</h2>
+      <ul>
+        <li id="c-1">
+          <span>
+          <i class="material-icons icon-first">laptop</i>
+          <i class="material-icons icon-second">lock</i>
+          </span>
+          <header>safe and</br>secure</header>
+          <p>Online booking system with validated privacy protection</p>
+        </li>
+        <li id="c-2">
+          <span>
+            <i class="material-icons icon-first">event</i>
+            <i class="material-icons icon-second">call</i>
+          </span>
+          <header>same day</br>reservationst</header>
+          <p>Receive a full refund if cancellation is made at least 48 hours in advance</p>
+        </li>
+        <li id="c-3">
+          <span>
+            <i class="material-icons icon-first">sentiment_satisfied_alt</i>
+          </span>
+          <header>friendly</br>support</header>
+          <p>Receive your voucher the same day after booking your activity</p>
+        </li>
+        <li id="c-4">
+          <span>
+            <i class="material-icons icon-first">undo</i>
+            <i class="material-icons icon-second">attach_money</i>
+          </span>
+          <header>money back</br>guranteed</header>
+          <p>Our representatives will help you select the best activities and ensure 100% satisfaction</p>
+        </li>
+      </ul>
+    </div>
+
+    </div>
+    <!-- ================ -->
+    <!-- ======== -->
+    <footer class="footer">
+      <header>
+        <a href="#">
+          <img src="images/kauai_discount_logo_footer.svg" alt="">
+          <h2>kauai discount <hr/> <span>discount activites & tours</span></h2>
+        </a>
+      </header>
+      <div class="social">
+        <p>follow us</p>
+        <a class="facebook-social" href="https://www.facebook.com/HawaiiDiscount"></a>
+        <a class="twitter-social" href="https://twitter.com/hawaiidiscount"></a>
+        <a class="youtube-social" href="https://www.youtube.com/hawaiidiscount"></a>
+        <a class="pinterest-social" href="https://www.pinterest.com/hawaiidiscount/"></a>
+      </div>
+      <section>
+        <ul>
+          <li><b>navigation</b></li>
+          <li> <a href="#">home</a> </li>
+          <li> <a href="#">contact</a> </li>
+          <li> <a href="#">about us</a> </li>
+          <li> <a href="#">cart</a> </li>
+        </ul>
+        <ul>
+          <li><b>site info</b></li>
+          <li> <a href="#">faq</a> </li>
+          <li> <a href="#">site map</a> </li>
+          <li> <a href="#">privacy policy</a> </li>
+          <li> <a href="#">terms</a> </li>
+          <li> <a href="#">login</a> </li>
+        </ul>
+      </section>
+      <p>Copyright (c) 2019 hawaii discount All Rights Reserved.</p>
+    </footer>
+  </div>
+  <!-- ======== -->
+  <div id="border-right"></div>
+  </div>
+    <!-- ================ -->
+    <!-- ================ -->
+
+    <!-- ========= slider-toggle ========= -->
+
+    <!-- ================== -->
+    <script type="text/javascript" src="toggle.js"></script>
+    <script type="text/javascript" src="sort.js"></script>
+    <script type="text/javascript" src="checkpoint.js"></script>
+    <script type="text/javascript" src="config.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
