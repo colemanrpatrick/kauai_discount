@@ -35,9 +35,16 @@ li{
 	vertical-align: top;
 }
 @media(max-width:1440px){
+	#wrapper{
+		display: block;
+	}
+	#main{
+		display: block;
+	}
 	#border-left,
 	#border-right{
 		width: 0;
+		display: none;
 	}
 }
 /*==== nav ====*/
